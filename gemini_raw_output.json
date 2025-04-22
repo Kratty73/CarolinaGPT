@@ -1,0 +1,202 @@
+[
+  {
+    "prompt": "What is the name of the organization that Peter Calingaert served as a visiting professor?",
+    "answer": "NONE\n"
+  },
+  {
+    "prompt": "What is the email address of the Senior Research Scientist, Graphics?",
+    "answer": "The provided text gives the email address of Andrei State, the Senior Research Scientist, Graphics, as andrei@cs.unc.edu.\n"
+  },
+  {
+    "prompt": "What is the name of the directory that provides student photo directory?",
+    "answer": "NONE\n"
+  },
+  {
+    "prompt": "What is the Staff Team of Rafael Zaldivar?",
+    "answer": "Based on the provided sources, Rafael Zaldivar's staff team is listed as **Administration**.  This information is consistently repeated across all mentions of his employment.\n"
+  },
+  {
+    "prompt": "What is the purpose of CS Experience Labs (XL)?",
+    "answer": "Based on the provided sources, the purpose of the Computer Science Experience Labs (CSXL) is to provide a collaborative co-working and computing hub for Computer Science majors.  This hub offers hands-on learning opportunities designed to accelerate student growth in areas such as software engineering, user experience design, production engineering, and product management.  The labs aim to bridge the gap between theoretical knowledge and real-world application, fostering a sense of community and belonging among students.  They also aim to broaden participation in computing.\n"
+  },
+  {
+    "prompt": "What is the email address of the Accounting Technician?",
+    "answer": "The provided text mentions several Accounting Technicians with different email addresses:\n\n* **Matthew Greeson:** mgreeson@cs.unc.edu\n* **Mikie Morrison:** mikie@cs.unc.edu\n* **Soji Weeks:** sosoji@cs.unc.edu\n\nThere is not one single email address for \"the\" Accounting Technician.\n"
+  },
+  {
+    "prompt": "How do firewalls handle requests from unknown IP addresses?",
+    "answer": "Based on the provided text, firewalls handle requests from unknown IP addresses by blocking them, unless explicitly permitted by the firewall's configuration.\n\nNetwork firewalls, in particular, control access to network ports at a low level.  They allow administrators to specify which IP addresses or ranges of addresses are permitted to access specific ports.  If a request originates from an IP address not on the allowed list, the firewall will block the request; the port will appear as if it doesn't exist to the requesting machine.\n\nSoftware firewalls operate similarly.  Simple firewalls examine the source and destination IP addresses, along with protocol and port information.  If the source IP address isn't authorized, the connection is blocked.  Application firewalls add another layer, checking the application involved in the connection. However, the fundamental principle remains the same:  unauthorized IP addresses are denied access.\n"
+  },
+  {
+    "prompt": "What is the institution where Snigdha Chaturvedi received her Ph.D.?",
+    "answer": "Based on the provided text, Snigdha Chaturvedi received her Ph.D. from the University of Maryland, College Park.\n"
+  },
+  {
+    "prompt": "How is the Career Panel event beneficial for students?",
+    "answer": "Based on the provided text, the Career Panel event (\"Career Panel: Hear from Recruiters\") benefits students in two main ways:\n\n1. **Demystifying the hiring process:**  The event aims to \"demystify the hiring process,\" giving students insight into how companies recruit and hire.  This helps students better understand the steps involved in securing a job and how to navigate them successfully.\n\n2. **Building rapport and gaining company insight:** The event description emphasizes building rapport between students and recruiters in an informal setting.  This allows students to learn about \"life at their company,\" providing valuable information beyond just the job application process itself, such as company culture and work environment.\n"
+  },
+  {
+    "prompt": "What is the Ph.D. degree that Mingyu Ding earned from the University of Hong Kong?",
+    "answer": "The provided text states that Mingyu Ding obtained a doctorate from the University of Hong Kong in 2022.  The specific name of the Ph.D. degree isn't explicitly mentioned, only that it's a doctorate.\n"
+  },
+  {
+    "prompt": "What is the location of the Events Specialist's office?",
+    "answer": "The provided text states that Ashley Centeno, an Events Specialist, is located in 121 Sitterson Hall.\n"
+  },
+  {
+    "prompt": "What are the benefits of taking international classes as a computer science student?",
+    "answer": "Based on the provided text, taking international classes as a computer science student at UNC-Chapel Hill offers several benefits:\n\n* **Course Complementarity:**  The program offers international classes and programs specifically designed to complement the computer science major at UNC.  These courses are intended to enhance your existing knowledge and skills.\n\n* **Broadened Global Perspective:** Studying abroad provides a broader, more global perspective, enriching your overall educational experience.\n\n* **Seamless Credit Transfer:**  Detailed credit transfer information is available to ensure that the courses taken abroad fit smoothly into your degree plan at UNC.  However,  a maximum of 2 courses can be transferred for major credit.  The department prioritizes students taking courses not offered at UNC to ensure a breadth of learning.  This includes the restriction of credit transfer for certain specific courses (COMP 283, 210, 211, 301, 311).\n\nIt is important to note that while general computer science transfer credit will be granted, students are responsible for confirming course acceptance with Professor David Stotts *before* enrolling in international courses.\n"
+  },
+  {
+    "prompt": "Where can you find David Cowhig in the Sitterson Hall building?",
+    "answer": "Based on the provided sources, David Cowhig is located in room 044 of Sitterson Hall.\n"
+  },
+  {
+    "prompt": "What is Kevin Sun's title?",
+    "answer": "Based on the provided sources, Kevin Sun's title is Teaching Assistant Professor.\n"
+  },
+  {
+    "prompt": "Which ports are generally considered more dangerous for most operating systems?",
+    "answer": "Based on the provided text, ports 1-1023 (well-known ports) are generally considered more dangerous.  The sources state that these ports should be restricted to root or other privileged accounts and that breaches on these ports are generally considered more dangerous.  The reasoning is that these ports are used by system services and are therefore more critical to the security and operation of the system.  Lower numbered ports are generally more closely guarded.\n"
+  },
+  {
+    "prompt": "What was Snigdha Chaturvedi's role at the University of California, Santa Cruz?",
+    "answer": "Based on the provided text, Snigdha Chaturvedi was an Assistant Professor at the University of California, Santa Cruz from 2018-2019.\n"
+  },
+  {
+    "prompt": "What is one of the areas of research Brent Munsell is involved in?",
+    "answer": "Based on the provided text, one of Brent Munsell's areas of research is medical image analysis.\n"
+  },
+  {
+    "prompt": "What is the typical size of a student-taught course section?",
+    "answer": "Student-taught course sections are typically limited to 40 undergraduate students during a regular semester.  Summer courses are smaller, typically around 15 students.\n"
+  },
+  {
+    "prompt": "What is the name of the section that provides quick links for university students?",
+    "answer": "The provided text mentions a section called \"QUICK LINKS\".  This section contains links to University Academic Calendars, Course Schedules, and Career Services.\n"
+  },
+  {
+    "prompt": "What is the purpose of the Employer Board Meetings?",
+    "answer": "The purpose of the Employer Board Meetings is to allow industry partners to collaborate on programming strategy and brainstorm opportunities to better support programs and students.\n"
+  },
+  {
+    "prompt": "How can you contact Andrew Kwong?",
+    "answer": "The provided text gives Andrew Kwong's email address as andrew@cs.unc.edu and his physical address as 340 Brooks Building.  Additionally, a website, https://andrewkwong.org/, is listed.\n"
+  },
+  {
+    "prompt": "What can you do if you can\u2019t figure out what\u2019s blocking a connection from the firewall\u2019s logs?",
+    "answer": "If you cannot determine what is blocking a connection using the firewall's logs, you can try using a sniffer program.  First, disable the firewall. Then, activate the sniffer program and attempt to use the application or service that is failing to connect through the firewall. The sniffer should capture all the network packets involved in the connection attempt, providing insight into why the connection is failing.\n"
+  },
+  {
+    "prompt": "How long does the Corporate Partners Program membership period last if joined in the late summer or early fall?",
+    "answer": "The provided text states that Corporate Partners Program membership is valid for up to one year.  While it's advantageous to join in late summer or early fall to maximize benefits, the length of the membership itself remains one year, running from July 1st to June 30th.\n"
+  },
+  {
+    "prompt": "What is the degree held by Mary C. Whitton from North Carolina State?",
+    "answer": "Based on the provided text, Mary C. Whitton holds an M.S. degree from North Carolina State University.  This information is consistently mentioned across all sources.\n"
+  },
+  {
+    "prompt": "What is the name of the website that lists the services provided by Computer Services?",
+    "answer": "The provided text mentions a website that lists the services provided by Computer Services:  `https://help.cs.unc.edu/en/blog/services-we-provide`.\n"
+  },
+  {
+    "prompt": "Which prestigious organization has the department faculty as its member?",
+    "answer": "The provided text mentions several prestigious organizations of which department faculty are members.  These include:\n\n* **The National Academy of Engineering**\n* **The American Academy of Arts & Sciences**\n* **The American Association for the Advancement of Science**\n* **The Association for Computing Machinery (ACM)**\n* **The Institute of Electrical and Electronics Engineers (IEEE)**\n\nThe sources list various faculty members as fellows or members of these organizations, indicating a significant presence within them.\n"
+  },
+  {
+    "prompt": "When did the department implement the new registration process?",
+    "answer": "The provided text states that a new undergraduate registration process was implemented in Fall 2021.\n"
+  },
+  {
+    "prompt": "Who is the Administrative Support Associate in the Department of Radiology?",
+    "answer": "Based on the provided sources, Rafael Zaldivar is listed as an Administrative Support Associate.  However, the sources don't explicitly state *which* department he supports. While he is listed alongside faculty from the Department of Radiology, this doesn't definitively confirm his departmental affiliation.  The information is ambiguous on this specific point.\n"
+  },
+  {
+    "prompt": "What is the purpose of the IT Requests topic?",
+    "answer": "Based on the provided text, the purpose of the \"IT Requests\" topic is to provide a method for submitting requests related to Information Technology.  The table shows contact information (website, email, and phone number) for submitting and tracking these requests.\n"
+  },
+  {
+    "prompt": "What is the department or team that the Events and Outreach Coordinator belongs to?",
+    "answer": "Based on the provided sources, Melissa Gunnell, the Events and Outreach Coordinator, belongs to two teams:  the **Administration** team and the **External Relations** team.\n"
+  },
+  {
+    "prompt": "Is there a software practicum course available on this page?",
+    "answer": "Yes, there is mention of a \"Software Practicum\" (COMP 393).  The provided text describes it as a course offering students experience in software engineering within a university environment.  Projects require approval from both the instructor and a client, must involve substantive computer science, and credit hours depend on project size.  Multiple students can participate, but it's not recommended to have more than two students on a single project.\n"
+  },
+  {
+    "prompt": "What is the name of the university where the professor is currently teaching?",
+    "answer": "The provided text states that Sayeed Ghani is a Teaching Associate Professor in the Department of Computer Science at the University of North Carolina at Chapel Hill.\n"
+  },
+  {
+    "prompt": "What are the engagement opportunities available in the Corporate Partners Program?",
+    "answer": "The provided text mentions that the UNC CS Corporate Partners Program offers engagement opportunities in both virtual and in-person environments, tailored to the specific needs of each organization.  However, the exact nature of these opportunities isn't detailed.  The text does state that  a \"full year of offerings\" is aimed for, and that the program uses \"an expansive mix of engagement and communication initiatives\" to maximize student visibility of opportunities and company information.  To learn the specifics of the engagement opportunities available, you should consult the \"Engagement Opportunities\" section mentioned in several of the provided sources, or contact the program team directly via email at partners@cs.unc.edu or through the contact information listed for Melissa Gunnell, Stephanie Johnson, or Rosario Vila.\n"
+  },
+  {
+    "prompt": "What is the name of the center where Neil S. Gaikwad is a fellow?",
+    "answer": "The MIT Dalai Lama Center for Ethics and Transformative Values.\n"
+  },
+  {
+    "prompt": "What fellowship did Gary Bishop receive?",
+    "answer": "Based on the provided text, Gary Bishop received the Kauffman Entrepreneurial Fellowship.\n"
+  },
+  {
+    "prompt": "What is the purpose of the two listed phone numbers?",
+    "answer": "The provided text mentions several phone numbers, but doesn't explicitly state the purpose of *pairs* of phone numbers.  It describes individual numbers and their uses. For example:\n\n* **911:**  Emergency calls (routed to Orange County Emergency 911, not UNC Police).\n* **7+919-962-6565 or 26565:**  Campus Police (non-emergency).  The difference appears to be an internal dialing option (using just the last four or five digits depending on location).\n* **0:** Campus operator.\n* **411:** Department directory.\n\nTo answer your question, more context is needed to identify which two phone numbers you are referring to.  The sources detail various phone numbers and their functions within a university setting, but don't present pairs of numbers with a shared purpose.\n"
+  },
+  {
+    "prompt": "What is the phone number for the office that handles general inquiries?",
+    "answer": "The provided sources give several phone numbers, but don't explicitly state which number handles *general* inquiries.  While (919) 590-6000 is listed under \"General Department Information,\" this is not definitive proof it handles all general inquiries.  Other numbers, such as (919) 590-6001, (919) 590-6035, (919) 590-6149, and (919) 590-6109 are also listed as contact numbers.  Therefore, based solely on the provided information, I cannot definitively answer which phone number handles general inquiries.\n"
+  },
+  {
+    "prompt": "What is Stephanie Johnson's role at UNC-Chapel Hill Department of Computer Science?",
+    "answer": "Stephanie Johnson is the Director of Career Services for the UNC-Chapel Hill Department of Computer Science.  In this role, she develops and implements strategies to help over 1,900 students advance their careers.  Her responsibilities include overseeing all career initiatives, leading a team of assistants, collaborating with faculty and employers to integrate career development into the curriculum, and serving as a liaison to the UNC School of Data Science and Society to develop career services programming there.\n"
+  },
+  {
+    "prompt": "What are the research interests of Parasara Sridhar Duggirala?",
+    "answer": "Based on the provided sources, Parasara Sridhar Duggirala's research interests span Cyber-Physical Systems, Formal Methods, Control Theory, Hybrid Systems, Autonomy, Embedded and Real-Time Systems, and Probabilistic Systems.\n"
+  },
+  {
+    "prompt": "What is James Anderson's area of research focus?",
+    "answer": "Based on the provided text, James Anderson's research focuses on real-time systems, distributed and concurrent algorithms, multicore computing, and operating systems.\n"
+  },
+  {
+    "prompt": "What is the format of the contact information listed?",
+    "answer": "The provided text gives examples of contact information in several formats, not a single unified format.  We see:\n\n* **Name and email:**  \"andrei@cs.unc.edu\" is presented alone, without a name.\n* **Phone and Fax:**  Multiple instances show phone and fax numbers listed separately, such as \"919-590-6110 Phone 919-590-6105 Fax\".  Note that there's no consistent formatting regarding spacing or labels.\n* **Website and Email and Phone:** The table shows contact information including a website link (\"https://help.cs.unc.edu\"), email address (\"help (at) cs.unc.edu\"), and phone number (\"(919) 962-4357\"), all within a structured table format.\n\nIn summary, there's no single consistent format.  The presentation varies depending on the context.\n"
+  },
+  {
+    "prompt": "What is the GPA requirement for students to register for COMP 691H?",
+    "answer": "To register for COMP 691H, students need a cumulative GPA of 3.3.  If a student's GPA is slightly below 3.3, they may be allowed to register provisionally.  However, there is no leeway for COMP 692H; a 3.3 GPA is strictly required for that course.\n"
+  },
+  {
+    "prompt": "What are the typical events participated by the department?",
+    "answer": "Based on the provided text, the department typically participates in the UNC Science Expo and tries to hold one open house per year that is open to the public.  Additionally,  they host a \"Hello CS\" Fall Open House and an MS/HS Department Open House.\n"
+  },
+  {
+    "prompt": "Where did Don Smith receive his Ph.D. in Computer Science?",
+    "answer": "Don Smith received his Ph.D. in Computer Science from UNC-Chapel Hill in 1978.\n"
+  },
+  {
+    "prompt": "How can a user set a vacation message on Gmail?",
+    "answer": "The provided text states that users who read mail from Gmail can set a vacation message using the information at Google Automatic Reply Help.\n"
+  },
+  {
+    "prompt": "What is the title of the graduate course taught by Timothy L. Quigg?",
+    "answer": "NONE\n"
+  },
+  {
+    "prompt": "What is the minimum number of hours required to declare a minor in Computer Science for a master's program?",
+    "answer": "The minimum number of hours required for a Computer Science minor in a master's program is 9 hours.  This is explicitly stated in the first source provided.\n"
+  },
+  {
+    "prompt": "Who received an Alfred P. Sloan Research Fellowship from the Sloan Foundation?",
+    "answer": "Based on the provided text, J. Anderson received an Alfred P. Sloan Research Fellowship from the Sloan Foundation in 1996.  This is explicitly stated in multiple sources.\n"
+  },
+  {
+    "prompt": "What are some of the research interests of Professor Raghavendra Pothukuchi?",
+    "answer": "Based on the provided sources, Professor Raghavendra Pothukuchi's research interests include:  brain-computer interfaces (BCIs), quantum computing, classical computing frameworks to accelerate cognitive models, biologically inspired computer architectures, computer architecture and systems, cognitive modeling, formal control, energy and power efficiency, security, machine learning, datacenters and cloud, and compilers.\n"
+  },
+  {
+    "prompt": "What is the name of the college that Peter Calingaert attended for his B.A.?",
+    "answer": "Based on the provided sources, Peter Calingaert received his B.A. from Swarthmore College.\n"
+  }
+]
