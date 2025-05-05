@@ -7,7 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 # Initialize Pinecone with your API key
-pc = Pinecone(api_key="pcsk_5Rdqat_Sx9R8WoQHqcK485RtbxDwFkA59VmhvNt3F3EiL9qeMfENo233Qp89fsRuh9p2Tu")
+pc = Pinecone(api_key="YOUR API KEY HERE")
 
 index_name = "unc-cs-index"
 
@@ -150,7 +150,7 @@ async def query_documents(query: str, top_k: int = 5) -> QueryResponse:
 import json
 
 # Replace with your Google Gemini API key
-API_KEY = "AIzaSyANjsBsvuXnytos4V6HN86fYQ9A9a3sRiY"
+API_KEY = "YOUR GEMINI KEY HERE"
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={API_KEY}"
 
 # Function to call Gemini 1.5 Pro API
