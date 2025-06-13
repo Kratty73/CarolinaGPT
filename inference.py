@@ -13,7 +13,7 @@ from pydantic import BaseModel
 from tqdm import tqdm
 
 # Initialize Pinecone with your API key
-pc = Pinecone(api_key="pcsk_5Rdqat_Sx9R8WoQHqcK485RtbxDwFkA59VmhvNt3F3EiL9qeMfENo233Qp89fsRuh9p2Tu")
+pc = Pinecone(api_key="INSERT API KEY HERE")
 
 index_name = "unc-cs-index"
 

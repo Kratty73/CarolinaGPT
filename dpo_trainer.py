@@ -5,6 +5,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments,
 from trl import DPOTrainer, DPOConfig
 import torch
 from accelerate import Accelerator
+from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 
 # Paths
 MODEL_PATH = "./Llama-3.1-8B-Instruct"
@@ -42,6 +43,23 @@ def load_qna_dataset(path):
 model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, torch_dtype=torch.bfloat16)
 model.to(device)
 
+# Add LoRA adapters
+lora_config = LoraConfig(
+    r=8,                        # Low-rank dimension
+    lora_alpha=16,               # Scaling factor
+    target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],  # Attention layers (adjust if needed based on model architecture)
+    lora_dropout=0.05,           # Dropout for LoRA
+    bias="none",                 # Bias setting
+    task_type="CAUSAL_LM"        # For language models
+)
+
+model = get_peft_model(model, lora_config)
+
+# Enable gradient checkpointing if you want memory savings (you already did)
+model.gradient_checkpointing_enable()
+
+print("Trainable parameters:", sum(p.numel() for p in model.parameters() if p.requires_grad))
+
 tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH, trust_remote_code=True)
 tokenizer.pad_token = tokenizer.eos_token
 
@@ -68,8 +86,8 @@ class MemoryMonitorCallback(TrainerCallback):
 # DPO Config
 training_args = DPOConfig(
     output_dir="dpo-llama-output",
-    per_device_train_batch_size=1,
-    gradient_accumulation_steps=32,
+    per_device_train_batch_size=4,
+    gradient_accumulation_steps=8,
     num_train_epochs=3,
     save_strategy="epoch",
     logging_steps=10,
